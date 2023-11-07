@@ -123,10 +123,10 @@ Ideas:
 - README.md                  # Repository README
 ```
 
-You can also check out [`uavgeo`](https://github.com/icaerus-eu/uavgeo) for an example `python` project folder/file structure that is published and available through `pip`. Or [`p2p-ros`](https://github.com/jurriandoornbos/p2p-ros) for a ROS related project.
+You can also check out [`uavgeo`](https://github.com/icaerus-eu/uavgeo) for an example `python` project folder/file structure that is published and available through `pip`. Or [`p2p-ros`](https://github.com/jurriandoornbos/p2p_ros) for a ROS related project.
 
 ### Topics
-To help out findability, and usability in the ICAERUS platform (WP6), the repo's should be [labeled correctly using GitHub Topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics). These topics are still under construction and debate, but here is an idea of what to use:
+To help out findability, and usability in the ICAERUS platform (WP6), the repo's should be [labeled correctly using GitHub Topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics). These topics are still under construction and debate, but here is an idea of what we can use:
 
 * UC related: `uc1`, `uc2`, `uc3`, `uc4`, `uc5`
 * WP related: `wp2`, `wp3`, `wp6`
@@ -137,7 +137,7 @@ To help out findability, and usability in the ICAERUS platform (WP6), the repo's
     - `hsi`/`msi`: Hyperspectral/Multispectral imaging
     - `flight-control`: Flight Control
     - `path-planning`: Path planning algorithms/implementations
-    - `data`: Dataset related information/explanation/links/etc.
+    - `dataset`: Dataset related information/explanation/links/etc.
     - `sim`: Simulation related
     - `framework`: Framework/architectural/backbone code
     - `ros`: Robotics Operating System packages
