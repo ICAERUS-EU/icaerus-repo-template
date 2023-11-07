@@ -28,7 +28,7 @@
 This GitHub repository template is designed for the ICAERUS-EU project, providing a standardized structure for managing and sharing project-related code, documentation, and resources. It includes essential folders and files to help streamline development, collaboration, and tracking progress within the project.
 
 ## Usage
-The idea is that this readme text is copied and adjusted for your own project-repo readme. Start by [creating a repo on GitHub](https://docs.github.com/en/get-started/quickstart/create-a-repo), from your GitHub account. You can decide later to publish it under the ICAERUS organization. If your are not a member yet of this organization, please send an [e-mail](mailto:jurrian.doornbos@wur.nl?subject=[ICAERUS Github access]%20Source%20Han%20Sans) with your GitHub account information: email/username.
+The idea is that this readme text is copied and adjusted for your own project-repo readme. Start by [creating a repo on GitHub](https://docs.github.com/en/get-started/quickstart/create-a-repo), from your GitHub account. You can decide later to publish it under the ICAERUS organization. If your are not a member yet of this organization, please send an e-mail to [jurrian.doornbos@wur.nl](mailto:jurrian.doornbos@wur.nl?subject=[ICAERUS Github access]%20Source%20Han%20Sans) with your GitHub account information: email/username.
 
 You can copy-and-paste the header and shields to your own readme file (please note the `repo-title` in the urls):
 ```markdown
