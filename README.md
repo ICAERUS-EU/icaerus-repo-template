@@ -123,7 +123,7 @@ Ideas:
 - README.md                  # Repository README
 ```
 
-You can also check out [`uavgeo`](https://github.com/icaerus-eu/uavgeo) for an example `python` project folder/file structure that is published and available through `pip`.
+You can also check out [`uavgeo`](https://github.com/icaerus-eu/uavgeo) for an example `python` project folder/file structure that is published and available through `pip`. Or [`p2p-ros`](https://github.com/jurriandoornbos/p2p-ros) for a ROS related project.
 
 ### Topics
 To help out findability, and usability in the ICAERUS platform (WP6), the repo's should be [labeled correctly using GitHub Topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics). These topics are still under construction and debate, but here is an idea of what to use:
