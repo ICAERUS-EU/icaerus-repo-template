@@ -96,14 +96,18 @@ This project is funded by the European Union, grant ID 101060643.
 
 ```
 ### ICAERUS organization
-You can decide later or immediately to publish it under the ICAERUS organization. **If your are not a member yet of this organization, please send an e-mail to [jurrian.doornbos@wur.nl](mailto:jurrian.doornbos@wur.nl?subject=ICAERUS-Github-access) with your GitHub account information: email/username.**
+You can decide later or immediately to publish it under the ICAERUS organization (if you are already a member). **If your are not a member yet of this organization, please send an e-mail to [jurrian.doornbos@wur.nl](mailto:jurrian.doornbos@wur.nl?subject=ICAERUS-Github-access) with your GitHub account information: email/username.**
+
+You can change it to the ICAERUS organization also [later down the line](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository) if you are not immediatly ready yet. Make sure to change all the URLs in the headers, image, etc. to reflect this transfer: `https://github.com/jurriandoornbos/uavgeo` -> **`https://github.com/icaerus-eu/uavgeo`**
 
 
 ## Repo requirements
+### License
 Choose a license and LICENSE file. Preferably something open-source like GPL-v3.
-
+### Folder structure
 From there on in, you can decide on folder structure which makes the most sense for the project. For some ideas of folder structures you can do [some research](https://mitcommlab.mit.edu/broad/commkit/file-structure/), or use what is already logical to you/your organization.
 ```
+Ideas:
 - .github/                   # GitHub-specific files and templates
   - workflows/               # Workflow configuration files (e.g., CI/CD)
 - docs/                      # Documentation files (e.g., user guides)
@@ -122,7 +126,7 @@ From there on in, you can decide on folder structure which makes the most sense 
 You can also check out [`uavgeo`](https://github.com/icaerus-eu/uavgeo) for an example `python` project folder/file structure that is published and available through `pip`.
 
 ### Topics
-To help out findability, and usability in the ICAERUS platform (WP6), the repo's should be [labeled correctly using a Topic](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics), an initial set of Topics is given below. Topics are always lower-case.
+To help out findability, and usability in the ICAERUS platform (WP6), the repo's should be [labeled correctly using GitHub Topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics). These topics are still under construction and debate, but here is an idea of what to use:
 
 * UC related: `uc1`, `uc2`, `uc3`, `uc4`, `uc5`
 * WP related: `wp2`, `wp3`, `wp6`
