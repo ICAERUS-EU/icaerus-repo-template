@@ -103,7 +103,7 @@ You can change it to the ICAERUS organization also [later down the line](https:/
 
 ## Repo requirements
 ### License
-The Drone Data Analytics Library is open source, allowing anyone to view, modify, and contribute to its development. Contributors have the flexibility to choose from several open-source licenses as defined by the Open Source Initiative (OSI). You can explore these options at [OSI's official site]((https://opensource.org/licenses).
+The Drone Data Analytics Library is open source, allowing anyone to view, modify, and contribute to its development. Contributors have the flexibility to choose from several open-source licenses as defined by the Open Source Initiative (OSI). You can explore these options at [OSI's official site](https://opensource.org/licenses).
 
 Some popular open-source licenses allowed in the DDAL:
  - CC-BY: Creative Commons Attribution license, allowing use and modification as long as proper credit is given.
