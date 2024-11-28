@@ -132,32 +132,14 @@ Ideas:
 
 You can also check out [`uavgeo`](https://github.com/icaerus-eu/uavgeo) for an example `python` project folder/file structure that is published and available through `pip`. Or [`p2p-ros`](https://github.com/jurriandoornbos/p2p_ros) for a ROS related project.
 
-### Topics
-To help out findability, and usability in the ICAERUS platform (WP6), the repo's should be [labeled correctly using GitHub Topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics). These topics are still under construction and debate, but here is an idea of what we can use:
+### ICAERUS Platform integration
 
-* UC related: `uc1`, `uc2`, `uc3`, `uc4`, `uc5`
-* WP related: `wp2`, `wp3`, `wp6`
-* Content related: 
-    - `ml`: Machine Learning (statistical learning)
-    - `dl`: Deep Learning
-    - `cv`: Computer vision
-    - `hsi`/`msi`: Hyperspectral/Multispectral imaging
-    - `flight-control`: Flight Control
-    - `path-planning`: Path planning algorithms/implementations
-    - `dataset`: Dataset related information/explanation/links/etc.
-    - `sim`: Simulation related
-    - `framework`: Framework/architectural/backbone code
-    - `ros`: Robotics Operating System packages
-* Topic related:
-    - `vineyards`: Vineyards
-    - `spraying`: Drone Spraying
-    - `forest`: 
-* Location related:
-    - `spain`
-    - `macedonia`
-* We should be able to come up with a lot more, and stick to these for the whole project.
+To help out findability, and usability in the ICAERUS platform (WP6), the repo's should include a `platform.json`, following the template included in [Icaerus_Template](https://github.com/ICAERUS-EU/icaerus-repo-template/blob/main/platform.json). Then fill in the required information of your model to the file in your repo. In this template, you should also add the url for the specific model folder and the image reference of the performance expected. You can look at the example [UC1 PLATFORM JSON](https://github.com/ICAERUS-EU/UC1_Crop_Monitoring/blob/main/platform.json). 
 
-Please choose no more than 10 Topics, although 3 or 4 should be able to cover the whole repo.
+This information will be used to upload the [ICAERUS PLATFORM](https://www.platform.icaerus.eu/) so its implementation it's extremely important. As every UC uploads their models and updates the `platform.json`, we will monthly translate this information to the main `platform.json` located in the [ICAERUS_DDAL](https://github.com/ICAERUS-EU/ICAERUS_DDAL/tree/main) that is the one used for the integration with the platform. 
+
+Additionally, the platform.json serves to structure metadata about the model for findability and accessibility wihtin the platforms.
+
 
 ## Authors
 
