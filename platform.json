@@ -54,7 +54,9 @@
             "The Netherlands",
             "Lithuania",
             "France"
-            ], 
+            ],
+        "model_input": ["Orthomosaic"],			
+        "model_output": ["DTM", "CHM", "Spectral Index", "DEM"]			
         }
     }
 ]
